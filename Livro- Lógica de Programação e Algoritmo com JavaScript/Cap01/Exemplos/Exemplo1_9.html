@@ -1,0 +1,12 @@
+/* 
+    Ler o valor de um jantar. Calcular a taxa do garço (10%)
+    e o valor total a ser pago
+*/
+<meta charset="UTF-8">
+<script>
+    var valorJantar = Number(prompt("Qual o valor do jantar R$: ")); 
+    var gorjeta = (10/100) * valorJantar;
+    var total = valorJantar + gorjeta;
+    
+    alert("Gorjeta:  R$" + gorjeta.toFixed(2) + "\n Total:  R$"+ total.toFixed(2));
+</script>
