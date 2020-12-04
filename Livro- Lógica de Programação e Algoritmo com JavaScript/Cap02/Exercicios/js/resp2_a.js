@@ -16,5 +16,5 @@ function MostrarPromo(){
 
 }
 
-var btMostrarPromocao = document.getElementById("MostrarPromocao");
+var btMostrarPromocao = document.getElementById("btMostrarPromocao");
 btMostrarPromocao.addEventListener("click", MostrarPromo);
