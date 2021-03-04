@@ -23,7 +23,7 @@ function adicionarPaciente() {
         lista += (i + 1) + ". "+ pacientes[i] + "\n";
     }
 
-    // latera o conteúdo da tag outLista
+    // altera o conteúdo da tag outLista
     outLista.textContent = lista;
 
     // limpa o campo e posiciona o cursor em inPaciente
